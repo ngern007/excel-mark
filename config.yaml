@@ -1,0 +1,21 @@
+# Excel 水印工具 - 默认配置文件
+
+# 水印设置
+watermark:
+  color: "#808080"        # 默认灰色
+  opacity: 0.4            # 透明度 40%（更清晰）
+  angle: -45              # 倾斜角度
+  font: "Arial"           # 字体
+  font_size: 72           # 字体大小（增大，更清晰）
+  suffix: "non-disclosure"  # 后缀文字
+
+# 输出设置
+output:
+  path: ""                # 默认源文件路径
+  suffix_format: "_for_{client_name}"  # 命名格式
+
+# 日志设置
+log:
+  enabled: true
+  path: "./logs"
+  filename: "process.log"
