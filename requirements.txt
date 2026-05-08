@@ -1,0 +1,10 @@
+# Excel 水印工具依赖
+
+# Excel 文件处理
+openpyxl>=3.1.0
+
+# 图片处理
+Pillow>=9.0.0
+
+# 配置文件
+PyYAML>=6.0
